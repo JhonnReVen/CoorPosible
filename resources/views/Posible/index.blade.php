@@ -227,88 +227,9 @@
     </div>
 
   </section>
-  <!-- TESTIMONIOS 
-  <section style="height:auto; text-align: center; padding-top: 50px; padding-bottom: 50px;">
-    <h3 style="color: #1A6CA7;">Testimonios</h3>
-    <h5 style="color: #a8a8a8;">Personas que confiaron en possible, y forjaron una realidad mejor.</h5>
-    
-    <div class="container">
-      <div class="card-group" id="testimonios" style="margin-top:40px; min-height:300px!important; justify-content: center!important;">
-        <div class="card">
-          <img src="img/testimonio-carla.jpg" class="card-img-top" alt="..." style="height: 200px!important;">
-          <div class="card-body">
-            <h5 class="card-title">Carla</h5>
-            <p class="card-text">“Accedí a Posible para ayudarme a pagar los gastos de viaje. El servicio fue estupendo, fueron rápidos y amables. Una experiencia fantástica. Gracias.”
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/testimonio-juan.png"" class="card-img-top" alt="..." style="height: 200px!important;">
-          <div class="card-body">
-            <h5 class="card-title">Juan</h5>
-            <p class="card-text">
-            “Llevo más de un mes invirtiendo mi dinero y el crecimiento es increíble, más que cualquier otra entidad financiera!.”
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/testimonio-antony.jpg" class="card-img-top" alt="..." style="height: 200px!important;">
-          <div class="card-body">
-            <h5 class="card-title">Antony</h5>
-            <p class="card-text">
-            “Estos chicos siempre están listos para ayudar cuando más lo necesitas. Me ayudaron a invertir en mi negocio propio y me asesoraron durante todo el tiempo.”
-            </p>
-          </div>
-        </div>
-      </div>
-  </section>
--->
-  <div class="bloquefinfo  container-fluid" style="justify-content: center;">
-  </div>
-  <section
-    style="height:auto; background:#F2F5F8; padding-top:50px!important;font-size: 16px!important; color: #1A6CA7!important; text-align:center">
-    <h3 style="color: #1A6CA7;">Sigue a Possible en facebook</h3>
+  {{-- Seccion Facebook --}}
 
-    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="390"
-      data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
-    <br><br>
-    <div class="fb-post" data-href="https://www.facebook.com/CoopacPossible/posts/457665398924024" data-width="450"
-      data-show-text="true">
-      <blockquote cite="https://www.facebook.com/CoopacPossible/posts/457665398924024" class="fb-xfbml-parse-ignore">
-        <p>TRABAJO Y AHORRO, dos palabras que te llevarán a la riqueza.🤑🤑
-
-          Ven y ahorra con nosotros, tenemos las mejores tazas de...</p>Publicada por <a
-          href="https://www.facebook.com/CoopacPossible/">Cooperativa Possible</a> en&nbsp;<a
-          href="https://www.facebook.com/CoopacPossible/posts/457665398924024">Martes, 2 de marzo de 2021</a>
-      </blockquote>
-    </div>
-    <div class="fb-post" data-href="https://www.facebook.com/CoopacPossible/posts/461119575245273" data-width="350"
-      data-show-text="true">
-      <blockquote cite="https://www.facebook.com/CoopacPossible/posts/461119575245273" class="fb-xfbml-parse-ignore">
-        <p>
-          <a href="https://www.facebook.com/CoopacPossible/">Cooperativa Possible</a> en&nbsp;<a
-            href="https://www.facebook.com/CoopacPossible/posts/461119575245273"></a>
-      </blockquote>
-    </div>
-    <br>
-    <div class="fb-post" data-href="https://www.facebook.com/CoopacPossible/posts/448325986524632" data-width="350"
-      data-show-text="true">
-      <blockquote cite="https://www.facebook.com/CoopacPossible/posts/448325986524632" class="fb-xfbml-parse-ignore">
-        <p>
-          Feliz día del administrador peruano, especialmente a quienes forman parte de la Coopac Possible. 🥳🥳🥳🥳🥳
-        </p>Publicada por <a href="https://www.facebook.com/CoopacPossible/">Cooperativa Possible</a> en&nbsp;<a
-          href="https://www.facebook.com/CoopacPossible/posts/448325986524632">
-          Domingo, 14 de febrero de 2021</a>
-      </blockquote>
-    </div>
-    <div class="fb-post" data-href="https://www.facebook.com/CoopacPossible/posts/458713618819202" data-width="350"
-      data-show-text="true">
-      <blockquote cite="https://www.facebook.com/CoopacPossible/posts/458713618819202" class="fb-xfbml-parse-ignore">
-        Publicada por <a href="https://www.facebook.com/CoopacPossible/">Cooperativa Possible</a> en&nbsp;<a
-          href="https://www.facebook.com/CoopacPossible/posts/458713618819202">Jueves, 4 de marzo de 2021</a>
-      </blockquote>
-    </div>
-  </section>
+  @include('Posible.Section.facebook')
 
   <!-- aboutempresa -->
 
