@@ -12,7 +12,8 @@
   <link href="{{asset('css/css/complement.css')}}" rel="stylesheet">
   <link href="{{asset('css/css/dimensions.css')}}" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap"
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
   <link href="{{asset('ext/fontawesome/css/all.css')}}" rel="stylesheet">
   <link href="{{asset('css/css/owl.carousel.min.css')}}" rel="stylesheet">
