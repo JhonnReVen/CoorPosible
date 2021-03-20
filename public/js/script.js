@@ -212,7 +212,7 @@ $(function () {
 let opacidad2 = document.getElementById("dropdownid2");
 
 // opacidad.addEventListener("mouseover", function () {
-//   console.log("enrto")
+
 //   $('.opacidad').addClass('sticky');
 //   $('.opacidad2').addClass('sticky');
 
@@ -225,15 +225,15 @@ let opacidad2 = document.getElementById("dropdownid2");
 opacidad2.addEventListener("mouseover", function () {
   $('.opacidad').addClass('sticky');
   $('.opacidad2').addClass('sticky');
-  $('.dropdown-content').addClass('sticky');
+
 
 })
 opacidad2.addEventListener("mouseout", function () {
   $('.opacidad').removeClass('sticky');
   $('.opacidad2').removeClass('sticky');
-  $('.dropdown-content').removeClass('sticky');
 
 })
+// Funcion para submenu
 
 // Funciones para abrir el buscador y enfocar el puntero por defecto en este
 // function focusBusqueda(){

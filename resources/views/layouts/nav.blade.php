@@ -128,65 +128,66 @@
             <div class="dropdown" id="dropdownid2">
                 <a class="btnbar icon dropbtn ileft" id="edropbtn">AHORROS</a>
 
-                <div class="dropdown-content">
+                <div class="dropdown-content ">
                     <div class="triangulo"></div>
                     <div class="container smaling">
-
                         <div class="card-group">
-
-                            <div class="card bg-transparent"
-                                style="padding-left:1rem; padding-right:1rem; border: transparent!important;">
+                            <div class="card bg-transparent" style=" border: transparent!important;">
                                 <div class="card-header bg-transparent text-center"
                                     style="border: transparent!important;">
-                                    <div class="smtitle" style="color: #1a4088;">
+                                    <a class="smtitle" style="color: #1a4088;">
                                         <img src="{{ asset('img/svg/ahorro.svg') }}" style="max-width: 20%" alt="">
-                                        Ahorro plazo fijo</div>
-                                </div>
-                                {{-- <div class="card-body" style="min-height:2rem; text-align: justify;">
-                                    <p class="card-text ">
-                                        Socio que tiene ganas de
-                                        superación y emprende un
-                                        negocio. Con disposición al
-                                        ahorro y generar una sana
-                                        cultura financiera.
-                                    </p>
-                                </div>
-                                <center>
-                                    <img src="img/ahorroplazofijo.jpg" class="smimg">
-                                    <a href="{{route('ahorrofijo')}}" onclick="menumclick(1)" class="btn-sm">Ver
-                                más</a>
-                                </center> --}}
+                                        Ahorro plazo fijo</a>
 
-                                {{-- <div class="card-footer bg-transparent"
-                                    style="height: 2rem; border: transparent!important;">
-                                </div> --}}
+                                    <div class="dropdown-subcontent border-top">
+                                        <center>
+                                            <div class="card-body pt-0" style="min-height:2rem; text-align: justify;">
+                                                <p class="card-text ">
+                                                    Socio que tiene ganas de
+                                                    superación y emprende un
+                                                    negocio. Con disposición al
+                                                    ahorro y generar una sana
+                                                    cultura financiera.
+                                                </p>
+                                            </div>
+
+
+                                            <a href="{{route('ahorrofijo')}}" onclick="menumclick(1)"
+                                                class="btn-mas">Ver
+                                                más </a>
+
+                                        </center>
+                                        <img src="img/ahorroplazofijo.jpg" class="smimg">
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="card  bg-transparent"
-                                style="padding-left:2rem; padding-right:2rem; border: transparent!important;">
+                            <div class="card  bg-transparent" style=" border: transparent!important;">
                                 <div class="card-header bg-transparent text-center"
                                     style="border: transparent!important;">
-                                    <div class="smtitle" style="color: #1A6CA7;">
+                                    <a class="smtitle" id="smtitle" style="color: #1A6CA7;">
                                         <img src="{{ asset('img/svg/hucha.svg') }}" style="max-width: 20%;: " alt="">
-                                        Ahorro movil</div>
-                                </div>
-                                {{-- <div class="card-body" style="text-align: justify;min-height: 2rem;">
-                                    <p class="card-text">
-                                        Socio que ya emprendió la
-                                        enorme responsabilidad de
-                                        generar ingresos . Y que
-                                        busca generar una
-                                        saludable cultura financiera.</p>
-                                </div>
-                                <center>
-                                    <img src="img/ahorromovil.jpg" class="smimg">
-                                    <a href="{{route('ahorromovil')}}" onclick="menumclick(1)" class="btn-sm">Ver
-                                más</a>
-                                </center>
+                                        Ahorro movil</a>
 
-                                <div class="card-footer bg-transparent"
-                                    style="height: 2rem; border: transparent!important;">
-                                </div> --}}
+                                    <div class="dropdown-subcontent border-top " style="margin-left: -323px">
+                                        <center>
+                                            <div class="card-body pt-0" style="text-align: justify;min-height: 2rem;">
+                                                <p class="card-text">
+                                                    Socio que ya emprendió la
+                                                    enorme responsabilidad de
+                                                    generar ingresos . Y que
+                                                    busca generar una
+                                                    saludable cultura financiera.</p>
+                                            </div>
+                                            <a href="{{route('ahorromovil')}}" onclick="menumclick(1)"
+                                                class="btn-mas">Ver
+                                                más</a>
+
+                                        </center>
+
+                                        <img src="img/ahorromovil.jpg" class="smimg">
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
@@ -199,7 +200,11 @@
             <!-- GRUPO POSS -->
             <a class="btnbar" href="{{route('grupo')}}">GRUPO POSIBLE</a>
             <!-- CAMPAÑAS -->
-            <a class="btnbar" href="{{route('index')}}">CAMPAÑAS</a>
+            <div class="dropbtn" style="margin-left: 80px">
+                <img class="wobble-hor-bottom" src="img/svg/campana.svg" style="max-width: 12% ">
+                <a class="btnbar " href="{{route('index')}}">CAMPAÑAS</a>
+            </div>
+
 
         </div>
 

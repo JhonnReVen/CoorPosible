@@ -2,9 +2,19 @@
 
 @section('content')
 
+<div class="row homecrl " style="height:600px!important ;">
+  <div class="content-lading col-md-6 text-center"
+    style="background-image: url(&quot;img/fondo.jpg&quot;); padding-top: 200px">
+    <div class="title-slider" style="color:#fff">Ahorra inteligente con Possible</div>
+    <a href="{{asset('ahorrainteligente')}}" class="btn btn-slider">INFORMATE COMO HACERLO</a>
+  </div>
+  <div class="col-md-6 p-0 m-0">
+    <img src="{{ asset('img/ahorro-int.jpg') }}" style="max-height: 600px ">
+  </div>
+</div>
 
 <!-- CAROUSEL -->
-<div id="carouselExampleCaptions" class="carousel slide opacidad" data-ride="carousel">
+{{-- <div id="carouselExampleCaptions" class="carousel slide opacidad" data-ride="carousel">
   <ol class=" carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -19,42 +29,40 @@
         <div class="title-slider">Ahorra inteligente con Possible</div>
         <br>
         <a href="{{asset('ahorrainteligente')}}" class="btn btn-slider">Informate como hacerlo</a>
-      </div>
-    </div>
-    <div class="carousel-item  carousel_container crlx_parent">
-      <div class="d-block caraousel_background crlx"
-        style="background-image: url(&quot;img/credito.jpg&quot;); transform: translate(0%, -15.7377%) translate3d(0px, 15%, 0px);"
-        alt="..."></div>
-      <div class="carousel-caption d-none d-md-block caopleft">
-        <div class="title-slider">¿Necesitas un credito? Aprovecha nuestras tasas</div>
-        <br>
-        <a href="{{asset('simuladorcredito')}}" class="btn btn-slider">Simula tu credito</a>
-      </div>
-    </div>
-    <div class="carousel-item carousel_container crlx_parent">
-      <div class="d-block caraousel_background crlx"
-        style="background-image: url(&quot;img/FondoMachuPicchu.png&quot;); transform: translate(0%, -15.7377%) translate3d(0px, 15%, 0px);"
-        alt="..."></div>
-      <div class="carousel-caption d-none d-md-block caopleft">
+</div>
+</div>
+<div class="carousel-item  carousel_container crlx_parent">
+  <div class="d-block caraousel_background crlx"
+    style="background-image: url(&quot;img/credito.jpg&quot;); transform: translate(0%, -15.7377%) translate3d(0px, 15%, 0px);"
+    alt="..."></div>
+  <div class="carousel-caption d-none d-md-block caopleft">
+    <div class="title-slider">¿Necesitas un credito? Aprovecha nuestras tasas</div>
+    <br>
+    <a href="{{asset('simuladorcredito')}}" class="btn btn-slider">Simula tu credito</a>
+  </div>
+</div>
+<div class="carousel-item carousel_container crlx_parent">
+  <div class="d-block caraousel_background crlx"
+    style="background-image: url(&quot;img/FondoMachuPicchu.png&quot;); transform: translate(0%, -15.7377%) translate3d(0px, 15%, 0px);"
+    alt="..."></div>
+  <div class="carousel-caption d-none d-md-block caopleft">
 
-        <br>
-
-      </div>
-    </div>
-
+    <br>
 
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <i class="fas fa-chevron-left fa-4x" style="color:#ffffff; text-shadow: 0px 2px 3px rgba(243, 7, 7, 0.493);"></i>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <i class="fas fa-chevron-right fa-4x" style="color:#ffffff; text-shadow: 0px 2px 3px rgba(255, 0, 0, 0.493);"></i>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+  <i class="fas fa-chevron-left fa-4x" style="color:#ffffff; text-shadow: 0px 2px 3px rgba(243, 7, 7, 0.493);"></i>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+  <i class="fas fa-chevron-right fa-4x" style="color:#ffffff; text-shadow: 0px 2px 3px rgba(255, 0, 0, 0.493);"></i>
+  <span class="sr-only">Next</span>
+</a>
+</div> --}}
 
-<main class="opacidad" style="position: relative;">
+<main class="opacidad">
   <!-- SERVICIOS -->
   <section style="background:white; height: 300px!important;">
     <h2 style=" text-align: center; padding-top:46px!important; color: #1A4088;">Nuestros servicios</h2>

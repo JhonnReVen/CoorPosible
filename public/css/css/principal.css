@@ -264,6 +264,20 @@ nav a:hover {
 .icono:hover {
     color: #248ad3;
 }
+/*Boton ver mas*/
+.btn-mas {
+    border: var(--color-primary-2) 1px solid !important;
+    display: block;
+    margin: 0px 20px;
+    padding: 12px;
+    border-radius: 5px !important;
+}
+
+.btn-mas:hover {
+    transition: all 0.5s ease !important;
+    background: var(--color-primary-2) !important;
+    color: #fff !important;
+}
 
 /*boton de busqueda*/
 .btn-buscar {
@@ -333,13 +347,14 @@ nav a:hover {
 .triangulo {
     position: relative;
     margin-top: 10px;
-    left: 26%;
+    left: 30.5%;
     width: 0;
     height: 0;
     border-bottom: 15px solid #fff;
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
 }
+
 .bloque {
     display: flex;
     align-items: center;
@@ -523,15 +538,23 @@ nav a:hover {
     display: flex;
     cursor: pointer;
 }
+.smimg {
+    border-radius: 5px;
+}
 
 /*propiedades del dropdown ampliadas (ocultas por defecto)*/
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 930px;
+    min-width: 750px;
 
     margin: 0px -200px 0px -200px !important;
 }
+
+.card-group {
+    padding: 20px 0 10px;
+}
+
 /* Links del dropdown */
 .dropdown-content a {
     color: black;
@@ -550,22 +573,40 @@ nav a:hover {
 /*Muestra el submenu y su contenido*/
 .dropdown:hover .dropdown-content {
     display: flex;
+    justify-content: space-evenly;
 }
 
+/*Submenu de Ahorros fijos*/
+.dropdown-subcontent {
+    display: none;
+}
+
+.smtitle {
+    cursor: pointer;
+}
+
+.card-header:hover .dropdown-subcontent {
+    display: flex !important;
+    min-width: 600px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: all 0.8s ease !important;
+}
+
+/*Submenu de Ahorros movil*/
+
 /* cambio de color del dropbtn al pasar sobre dropdown
+
 .dropdown:hover .dropbtn {
     border-bottom: 3px solid#1A6CA7;
     color: #1a6ca7 !important;
 } */
+
 /* Alineacion del contenido texto del dropdown */
 .smaling {
     background: #fff !important;
     margin: 25px;
     border-radius: 10px;
-}
-
-.card-group {
-    padding: 20px 0;
 }
 
 .smtitle {
@@ -800,4 +841,34 @@ footer {
 
 span {
     font-size: 20px;
+}
+
+@-webkit-keyframes wobble-hor-bottom {
+    0%,
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+    15% {
+        -webkit-transform: translateX(-30px) rotate(-6deg);
+        transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+        -webkit-transform: translateX(15px) rotate(6deg);
+        transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+        -webkit-transform: translateX(-15px) rotate(-3.6deg);
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+        -webkit-transform: translateX(9px) rotate(2.4deg);
+        transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+        -webkit-transform: translateX(-6px) rotate(-1.2deg);
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
 }
