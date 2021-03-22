@@ -1,17 +1,18 @@
 @extends('layouts.header')
 
 @section('content')
-
-<div class="row homecrl " style="height:600px!important ;">
-  <div class="content-lading col-md-6 text-center"
-    style="background-image: url(&quot;img/fondo.jpg&quot;); padding-top: 200px">
-    <div class="title-slider" style="color:#fff">Ahorra inteligente con Possible</div>
-    <a href="{{asset('ahorrainteligente')}}" class="btn btn-slider">INFORMATE COMO HACERLO</a>
-  </div>
-  <div class="col-md-6 p-0 m-0">
-    <img src="{{ asset('img/ahorro-int.jpg') }}" style="max-height: 600px ">
+<div class="banner1">
+  <div class="row homecrl ">
+    <div class="content-lading col-md-6 text-center" style="background-image: url(&quot;img/fondo.jpg&quot;);">
+      <div class="title-slider" style="color:#fff">Ahorra inteligente con Possible</div>
+      <a href="{{asset('ahorrainteligente')}}" class="btn btn-slider">INFORMATE COMO HACERLO</a>
+    </div>
+    <div class="image-banner col-md-6 p-0 m-0">
+      <img src="{{ asset('img/ahorro-int.jpg') }}">
+    </div>
   </div>
 </div>
+
 
 <!-- CAROUSEL -->
 {{-- <div id="carouselExampleCaptions" class="carousel slide opacidad" data-ride="carousel">

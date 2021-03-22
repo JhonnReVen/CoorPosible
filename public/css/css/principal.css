@@ -54,6 +54,34 @@ ul.tabs li a .tab-text {
 .secciones article p {
     text-align: justify;
 }
+.banner1 {
+    height: 650px;
+}
+/* .image-banner img {
+    max-width: 600px;
+} */
+
+.content-lading {
+    padding-top: 250px;
+}
+@media screen and (max-width: 767px) {
+    /* .banner1 {
+        height: 800px;
+    } */
+
+    .banner1 .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .image-banner {
+        display: none;
+        object-fit: unset;
+    }
+    .content-lading {
+        padding-top: 200px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     ul.tabs li {
         width: none;
