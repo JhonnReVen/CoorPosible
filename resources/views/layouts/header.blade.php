@@ -19,6 +19,9 @@
   <link href="{{asset('css/css/owl.carousel.min.css')}}" rel="stylesheet">
   <link href="{{asset('css/css/owl.theme.default.min.css')}}" rel="stylesheet">
   <link href="{{asset('css/css/main.cssversion=3.6.11.css')}}" rel="stylesheet" type="text/css">
+
+  @yield('css')
+
   <div id="fb-root"></div>
 
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0"

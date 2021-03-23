@@ -612,6 +612,9 @@ nav a:hover {
 .smtitle {
     cursor: pointer;
 }
+.productos {
+    border-radius: 10px;
+}
 
 .card-header:hover .dropdown-subcontent {
     display: flex !important;
@@ -713,6 +716,9 @@ section {
     display: inline-flex !important;
 }
 
+.seccion2 .owl-carousel .owl-item {
+    background: var(--color-primary-2);
+}
 .imgcarousel {
     transform: translate(0%, -15.7377%) translate3d(0px, 15%, 0px) !important;
     height: 363px !important;

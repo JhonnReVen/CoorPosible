@@ -103,7 +103,7 @@
     <h6 style=" text-align: center; padding-top:9px!important; color:white!important;">Aquí encontrarás productos a tu
       medida</h6>
 
-    <img src="img/fondo-productos.jpg" alt="" class="fondoproductos">
+    {{-- <img src="img/fondo-productos.jpg" alt="" class="fondoproductos"> --}}
     <div class="owl-two owl-carousel owl-theme" style="margin-top: 50px;">
 
       <div class="item" data-hash="creditos" style="height: 350px!important; ">
@@ -183,15 +183,15 @@
     </div>
 
     <div style="display:flex; justify-content: flex-start!important; margin-top: 20px;">
-      <a class="btn-selectpro active" style="color:white;" href="#creditos">Créditos</a>
-      <a class="btn-selectpro1" style="color:white;" href="#ahorros">Ahorros</a>
+      <a class="btn-selectpro py-3 active" style="color:white;" href="#creditos">Créditos</a>
+      <a class="btn-selectpro1 py-3" style="color:white;" href="#ahorros">Ahorros</a>
     </div>
 
 
   </section>
 
   <!-- NOTICIAS-->
-  <section
+  {{-- <section
     style="height:auto; background:#F2F5F8; text-align: center; padding-bottom: 25px; padding-top:50px!important;font-size: 16px!important; color: #1A6CA7!important;">
     <h3 style="color: #1A6CA7;">Possible te informa</h3>
     <h5 style="color:   #a8a8a8;">Porque también queremos verte informado.</h5>
@@ -235,7 +235,7 @@
       </div>
     </div>
 
-  </section>
+  </section> --}}
   {{-- Seccion Facebook --}}
 
   @include('Posible.Section.facebook')
@@ -243,25 +243,26 @@
   <!-- aboutempresa -->
 
   <section
-    style="position: relative; height:auto; background:#F2F5F8; text-align: center;padding-bottom: 10px; padding-top:60px!important;font-size: 16px!important; color: #1A6CA7!important;">
+    style="position: relative; height:auto; background:#fff; text-align: center; padding-top:80px!important;font-size: 16px!important; color: #1A6CA7!important; margin-top:20px">
 
-    <div class="aboutempresa row row-cols-lg-4 row-cols-md-3 row-cols-sm-1 row-cols-1"
+    <div class="aboutempresa row row-cols-lg-4 row-cols-md-3 row-cols-sm-1 row-cols-1 text-center"
       style="justify-content: center!important;">
       <div class="col">
-        <a href="agencias.php"><i class="fas fa-map-marker-alt fa-6x" style="background:#F29103;"></i>Ubícanos</a>
+        <a href="agencias.php"><i class="fas fa-map-marker-alt fa-3x" style="background:#F29103;"></i>Ubícanos</a>
         <span>Encuéntranos en el lugar más cercano a ti.</span>
       </div>
       <div class="col">
-        <a href=""><i class="fas fa-question fa-6x" style="background:#C80065;"></i>Preguntas frecuentes</a>
+        <a href=""><i class="fas fa-question fa-3x m-auto" style="background:#C80065;"></i>Preguntas
+          frecuentes</a>
         <span>Aquí puedes resolver tus dudas.</span>
       </div>
       <div class="col">
         <a href="https://api.whatsapp.com/send?phone=51960359420&amp;text=%C2%A1Bienvenido%20a Possible!"
-          target="_blank"><i class="fa fa-phone fa-6x" style="background:#86BD24;"></i>Contáctanos</a>
+          target="_blank"><i class="fa fa-phone fa-3x" style="background:#86BD24;"></i>Contáctanos</a>
         <span>Si tienes alguna consulta comunícanos.</span>
       </div>
       <div class="col">
-        <a href=""><i class="fas fa-shield-alt fa-6x" style="background:#2d3740;"></i>Transparencia</a>
+        <a href=""><i class="fas fa-shield-alt fa-3x" style="background:#2d3740;"></i>Transparencia</a>
         <span>Información corroborable sobre nuestras actividades para el usuario.</span>
       </div>
     </div>

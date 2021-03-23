@@ -477,7 +477,7 @@ DIMENSION <= 470PX--------------------------------------------------------------
     .aboutempresa .col a i {
         border-radius: 100px !important;
         min-height: 0px !important;
-        min-width: 170px !important;
+        min-width: 100px !important;
         margin-bottom: 20px !important;
     }
     .aboutempresa .col a {

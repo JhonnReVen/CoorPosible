@@ -1,22 +1,54 @@
 @extends('layouts.header')
-
+@section('css')
+<link href="{{asset('css/css/simulador.css')}}" rel="stylesheet">
+@endsection
 @section('content')
 
-<main class="opacidad opacidad2">
-
-  <div class="home">
-    <div class="home_background_container prlx_parent">
-      <div class="home_background prlx"
-        style="background-image: url(&quot;img/seccionahorros.jpg&quot;); transform: translate(0%, -15.7377%) translate3d(0px, 0px, 0px);">
+<main class="opacidad opacidad2 content-simulador ">
+  <div class="container p-5 mtop">
+    <div class="contenedor-tipoahorro">
+      <h3 class="text-center pb-3">SIMULADOR DE AHORROS</h3>
+      <div class="form-group ">
+        <label for="inputAddress2">Nombre</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Ingrese su nombre">
       </div>
-    </div>
-    <div class="bloquelugar">
-      <h2>
-        <center>SIMULA <strong></strong>TU AHORRO</center>
-      </h2>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="inputState">Tipo de Ahorro</label>
+          <select id="inputState" class="form-control">
+            <option id="fijo" selected>Ahorro a plazo fijo</option>
+            <option id='movil'>Ahorro a plazo movil</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">CONTINUAR</button>
     </div>
   </div>
 
+  <div class="ahorro-fijo ">
+    @include('Posible.simulador.ahorro-fijo')
+  </div>
+  <div class="ahorro-movil">
+    @include('Posible.simulador.ahorro-movil')
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {{-- <div class="bloquelugar">
+    <h2>
+      <center>SIMULA <strong></strong>TU AHORRO</center>
+    </h2>
+  </div>
   <div class="accordion container-xs container-md container-lg">
     <div class="card border-light  container-md">
       <div class="card-body">
@@ -96,7 +128,12 @@
                 </center>
               </div>
             </div>
-          </div>
+          </div> --}}
 </main>
 
+@endsection
+
+
+@section('js')
+<script type="text/javascript" src="{{asset('js/simulador.js')}}"></script>
 @endsection

@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Posible/index');
 });
+
+Route::get('/calculadora', 'App\Http\Controllers\SimuladorController@calcularahorro')->name('calculadora.ahorro');
 Route::view('/index','Posible/index')->name('index');
 
 //Seccion de creditos

@@ -1,12 +1,14 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Http;
 use Illuminate\Http\Request;
 use App\Models\Posible;
 
 class PosibleController extends Controller
 {
+
+
 
     public function index()
     {
@@ -14,6 +16,10 @@ class PosibleController extends Controller
     }
 
     
+   
+
+
+
     public function seccioncreditos()
     {
         return view('Posible.seccioncreditos');
