@@ -87,51 +87,40 @@
             </div>
         </div>
     </div>
-    <!-- Clientes -->
-<div class="section_title text-center">
-    <h2 style="color:#1a6ca7"> Grupo Possible</h2>
-  </div>
-  <!-- <div class="card card-group container border-light"> -->
-    <div class="owl-socios owl-carousel owl-theme container-md pb-4 container_lg">
-      <!-- <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" style="justify-content: center;"> -->
-        
-          <div class="item">
-            <div class="card">
-             <div class="card-body">
-              <center><img class="card-img-top" src="{{asset('img/logo-shahua.png')}}"  style="width: 230px;"></center>
-             </div>
+    <div class="grupop section_title text-center">
+        <b></b>
+        <h2 style="color: #1A6CA7;"> Grupo Possible</h2>
+    </div>
+
+    <div class="card card-group container border-light">
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" style="justify-content: center;">
+
+            <!-- img1 -->
+            <div class="card-body">
+                <center><img class="card-img-top" src="img/logo-lumar.png" alt="https://unsplash.com/@michaeldam">
+                </center>
             </div>
-          </div>     
-          <div class="item">
-            <div class="card">
-             <div class="card-body">
-              <center><img class="card-img-top" src="{{asset('img/logo-lumar.png')}}" style="width: 230px;"></center>
-             </div>
+            <!-- img2 -->
+            <div class="card-body">
+                <center><img class="card-img-top" src="img/logo-roman.png" alt="https://unsplash.com/@michaeldam">
+                </center>
             </div>
-          </div>
-          <div class="item">
-            <div class="card">          
-             <div class="card-body">          
-              <center><img class="card-img-top" src="{{asset('img/logo-sand.png')}}"  style="width: 230px;"></center>
-             </div>
+            <!-- img3 -->
+            <div class="card-body">
+                <center><img class="card-img-top" src="img/logo-sand.png" alt="https://unsplash.com/@michaeldam">
+                </center>
             </div>
-          </div>
-          <div class="item">
-            <div class="card">             
-             <div class="card-body">             
-              <center><img class="card-img-top" src="{{asset('img/logo-roman.png')}}" style="width: 230px;"></center>
-             </div>
+            <!-- img4 -->
+            <div class="card-body">
+                <center><img class="card-img-top" src="img/logo-shahua.png" alt="https://unsplash.com/@michaeldam">
+                </center>
             </div>
-          </div>    
-          <div class="item">
-            <div class="card">              
-             <div class="card-body">              
-              <center><img class="card-img-top" src="{{asset('img/logo-skies.png')}}"style="width: 230px;"></center>
-             </div>
+            <div class="card-body">
+                <center><img class="card-img-top" src="img/logo-skies.png" alt="https://unsplash.com/@michaeldam">
+                </center>
             </div>
-          </div>             
-        <!-- </div> -->
-      </div>
+        </div>
+    </div>
 </main>
 
 @endsection

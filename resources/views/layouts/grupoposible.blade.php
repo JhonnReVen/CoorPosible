@@ -1,3 +1,4 @@
+
 @section('grupop')
 <!-- Clientes -->
 <div class="section_title text-center">
@@ -10,45 +11,39 @@
         <div class="item">
           <div class="card">
            <div class="card-body">
-            <center><img class="card-img-top" src="{{asset('img/logo-shahua.png')}}"  style="width: 220px;"></center>
+            <center><img class="card-img-top" src="{{asset('img/grupo-club.png')}}"  style="width: 150px;"></center>
            </div>
           </div>
         </div>     
         <div class="item">
           <div class="card">
            <div class="card-body">
-            <center><img class="card-img-top" src="{{asset('img/logo-lumar.png')}}" style="width: 220px;"></center>
+            <center><img class="card-img-top" src="{{asset('img/grupo-lumar.png')}}" style="width: 150px;"></center>
            </div>
           </div>
         </div>
         <div class="item">
           <div class="card">          
            <div class="card-body">          
-            <center><img class="card-img-top" src="{{asset('img/logo-sand.png')}}"  style="width: 220px;"></center>
+            <center><img class="card-img-top" src="{{asset('img/grupo-detallazo.png')}}"  style="width: 150px;"></center>
            </div>
           </div>
         </div>
         <div class="item">
           <div class="card">             
            <div class="card-body">             
-            <center><img class="card-img-top" src="{{asset('img/logo-roman.png')}}" style="width: 220px;"></center>
+            <center><img class="card-img-top" src="{{asset('img/grupo-donroman.png')}}" style="width: 150px;"></center>
            </div>
           </div>
         </div>    
         <div class="item">
           <div class="card">              
            <div class="card-body">              
-            <center><img class="card-img-top" src="{{asset('img/logo-skies.png')}}"style="width: 220px;"></center>
+            <center><img class="card-img-top" src="{{asset('img/grupo-sonner.png')}}"style="width: 150px;"></center>
            </div>
           </div>
         </div>             
       <!-- </div> -->
     </div>
-
-    <script type="text/javascript" src="{{asset('js/script.js')}}"></script>    
-<script type="text/javascript" src="{{asset('js/popper.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
-@endsection
-@yield('js')  
+    <br>
+  @endsection

@@ -5,45 +5,36 @@
 @section('content')
 
 <main class="opacidad opacidad2 content-simulador ">
-  <div class="container p-5 mtop">
+  <div class="container pt-5 mtop">
     <div class="contenedor-tipoahorro">
       <h3 class="text-center pb-3">SIMULADOR DE AHORROS</h3>
       <div class="form-group ">
-        <label for="inputAddress2">Nombre</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Ingrese su nombre">
+        <label for="nombreSimu">Nombre</label>
+        <input type="text" class="form-control" id="nombreSimu" placeholder="Ingrese su nombre">
+      </div>
+      <div class="form-group ">
+        <label for="ubicacion">Ubicacion</label>
+        <input type="text" class="form-control" id="ubicacion" placeholder="Ingrese su ubicacion">
       </div>
       <div class="form-row">
         <div class="form-group col-md-12">
           <label for="inputState">Tipo de Ahorro</label>
-          <select id="inputState" class="form-control">
-            <option id="fijo" selected>Ahorro a plazo fijo</option>
-            <option id='movil'>Ahorro a plazo movil</option>
+          <select id="select-ahorro" class="form-control">
+            <option value="afijo" selected>Ahorro a plazo fijo</option>
+            <option value="amovil">Ahorro a plazo movil</option>
           </select>
         </div>
       </div>
-      <button type="submit" class="btn btn-primary">CONTINUAR</button>
+      <button type="button" onclick="opena()" class="btn btn-primary">CONTINUAR</button>
     </div>
   </div>
 
   <div class="ahorro-fijo ">
-    @include('Posible.simulador.ahorro-fijo')
+    @include('Posible.Simulador.ahorro-fijo')
   </div>
   <div class="ahorro-movil">
-    @include('Posible.simulador.ahorro-movil')
+    @include('Posible.Simulador.ahorro-movil')
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   {{-- <div class="bloquelugar">
     <h2>
       <center>SIMULA <strong></strong>TU AHORRO</center>
@@ -135,5 +126,7 @@
 
 
 @section('js')
+
 <script type="text/javascript" src="{{asset('js/simulador.js')}}"></script>
+
 @endsection

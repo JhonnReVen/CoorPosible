@@ -29,7 +29,6 @@
 .contenedor-simul {
     padding: 40px;
     background: #fff;
-    border-radius: 16px;
 }
 
 .contenedor-item {
@@ -93,6 +92,15 @@
     border-radius: 5px;
     color: #fff;
 }
+
+/**/
+
+.ahorro-fijo,
+.ahorro-movil {
+    display: none;
+}
+
+/**/
 
 @media screen and (max-width: 769px) {
     .mtop {

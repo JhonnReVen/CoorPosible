@@ -63,7 +63,7 @@
 
 
   <section class="grupo-socios"
-    style=" background-image: url(&quot;img/grupo-fondosocios.jpg&quot;)!important; height: 600px !important;">
+    style=" background-image: url(&quot;img/grupo-fondosocios.jpg&quot;)!important; height: 800px !important;">
     <div class="card-header" style="background: transparent;">
       <h4> Nuestros socios</h4>
     </div>
@@ -71,7 +71,7 @@
     <div class="wrapper-socios">
 
       <div class="owl-grsocios owl-carousel owl-theme container">
-        <!-- socio1 -->
+        <!-- socio2 -->
         <div class="item">
           <div class="card mb-3">
             <div class="col-lg-12 contImgSocios">
@@ -88,7 +88,7 @@
             </div>
           </div>
         </div>
-        <!-- socio2 -->
+        <!-- socio3 -->
         <div class="item">
           <div class="card mb-3">
             <div class="col-lg-12 contImgSocios">
@@ -105,11 +105,11 @@
             </div>
           </div>
         </div>
-        <!-- socio3 -->
+        <!-- socio4 -->
         <div class="item">
           <div class="card mb-3">
             <div class="col-lg-12 contImgSocios">
-              <img class="card-img-top" src="img/logo-shahua.png" alt="">
+              <img class="card-img-top" src="img/logo-shahuindo1.png" alt="">
             </div>
             <div class="col-lg-12 contText">
               <div class="card-body">
@@ -122,7 +122,7 @@
             </div>
           </div>
         </div>
-        <!-- socio4 -->
+        <!-- socio5 -->
         <div class="item">
           <div class="card mb-3">
             <div class="col-lg-12 contImgSocios">
@@ -139,7 +139,7 @@
             </div>
           </div>
         </div>
-        <!-- socio5 -->
+        <!-- -->
         <div class="item">
           <div class="card mb-3">
             <div class="col-lg-12 contImgSocios">
