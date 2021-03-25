@@ -11,27 +11,30 @@ class SimuladorController extends Controller
      public function calcularahorro( Request $r ){
        
       
-        return response()->json([
-            'data' =>'Si llego al controlador',
-            'r' => $r->fecha
-       ]);
+    //     return response()->json([
+    //         'data' =>'Si llego al controlador',
+    //         'r' => $r->plazo
+    //    ]);
 
-            
-
-
+        
         $tipoAhorro=1;
-        $montoApertura=5000;
-        $fechaApertura= '20/03/2021';
-        $modalidadPago= 2;
-        $plazoVencimiento= 180;
-        $tiempoPago= 5;
-        $tipoMoneda= 266;
- 
+        $montoApertura=$r->monto;
+        $fechaApertura=  $r->fecha;
+        $modalidadPago= $r->tipoPago;
+        $plazoVencimiento= $r->plazo;
+        $tiempoPago= $r->tiempoPago;
+        $tipoMoneda= $r->moneda;
+      
         $response = Http::get('https://apis.coopacpossible.online/auth/simuladorahorro?tipoAhorro='.$tipoAhorro.'&montoApertura='. $montoApertura.'&fechaApertura='.$fechaApertura.'&modalidadPago='.$modalidadPago.'&plazoVencimiento='.$plazoVencimiento.'&tiempoPago='.$tiempoPago.'&tipoMoneda='.$tipoMoneda.'');
 
         $data = $response->json();
-        dd($data);
-        return view('Posible.simuladorahorro',compact('data'));
+        
+
+            return response()->json([
+            'data' =>'Si llego al controlador',
+            'r' =>  $data
+       ]);
+       // return view('Posible.prueba',compact('data'));
 
     }
    

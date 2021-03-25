@@ -10,7 +10,6 @@ let present2 = document.querySelector('.present2')
 function opena() {
     let nombre = document.getElementById('nombreSimu').value;
     let ubicacion = document.getElementById('ubicacion').value;
-
     let selectOpction = selectahorro.value;
 
 
@@ -20,7 +19,7 @@ function opena() {
         contentAhorro[0].classList.add('d-none')
         present1.innerHTML = `<h5 class="text-center py-2"> Hola <span style="font-weight: bolder; color: #1a4088">${nombre}</span>, ingresa los
             datos en el formulario y
-            simularemos tu ahorro.
+            simularemos tu Ahorro Fijo.
         </h5>`;
 
     } else if (selectOpction == 'amovil') {
@@ -29,9 +28,10 @@ function opena() {
         contentAhorro[0].classList.add('d-none')
         present2.innerHTML = `<h5 class="text-center py-2"> Hola <span style="font-weight: bolder; color: #1a4088">${nombre}</span>, ingresa los
             datos en el formulario y
-            simularemos tu ahorro.
+            simularemos tu Ahorro Movil.
         </h5>`;
     }
+
 
 }
 
@@ -56,6 +56,40 @@ function selectTipoPago() {
 
 }
 
+const tipoResultMoneda = (tasaInteres, plazoDeposito, fechaApertura, fechaVencimiento, pagoTotal, montoApertura, interesGanado) => {
+
+    let interestotal = document.querySelector('.interesaf');
+    interestotal.innerHTML = `${tasaInteres} `
+
+    let plazoDepositoDiv = document.querySelector('.plazoDeposito')
+    plazoDepositoDiv.innerHTML = `${plazoDeposito}`
+    let fechaAperturaDiv = document.querySelector('.fechaApertura')
+    fechaAperturaDiv.innerHTML = `${fechaApertura}`
+    let fechaVencimientoDiv = document.querySelector('.fechaVencimiento')
+    fechaVencimientoDiv.innerHTML = `${fechaVencimiento}`
+
+    let tipoMoneda = document.getElementById('moneda').value;
+    let result = document.getElementsByClassName('result');
+    let resultNone = document.getElementsByClassName('resultNone');
+    resultNone[0].classList.add('d-none');
+    result[0].classList.remove('d-none');
+    if (tipoMoneda == 266) {
+        let totalDiv = document.querySelector('.totalIngreso');
+        totalDiv.innerHTML = `S/ ${pagoTotal}`;
+        let montoAperturaDiv = document.querySelector('.montoApertura');
+        montoAperturaDiv.innerHTML = `S/ ${montoApertura}`;
+        let interesGanadoDiv = document.querySelector('.interesGanado')
+        interesGanadoDiv.innerHTML = `S/ ${interesGanado}`
+    } else if (tipoMoneda == 188) {
+        let totalDiv = document.querySelector('.totalIngreso');
+        totalDiv.innerHTML = `$ ${pagoTotal}`;
+        let montoAperturaDiv = document.querySelector('.montoApertura');
+        montoAperturaDiv.innerHTML = `$ ${montoApertura}`;
+        let interesGanadoDiv = document.querySelector('.interesGanado')
+        interesGanadoDiv.innerHTML = `$ ${interesGanado}`
+    }
+
+}
 
 const selectTiempoPago = () => {
     let tiempoP = document.querySelector('#tiempoPago')
