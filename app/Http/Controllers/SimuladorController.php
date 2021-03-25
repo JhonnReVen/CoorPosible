@@ -28,7 +28,6 @@ class SimuladorController extends Controller
         $response = Http::get('https://apis.coopacpossible.online/auth/simuladorahorro?tipoAhorro='.$tipoAhorro.'&montoApertura='. $montoApertura.'&fechaApertura='.$fechaApertura.'&modalidadPago='.$modalidadPago.'&plazoVencimiento='.$plazoVencimiento.'&tiempoPago='.$tiempoPago.'&tipoMoneda='.$tipoMoneda.'');
 
         $data = $response->json();
-        
 
             return response()->json([
             'data' =>'Si llego al controlador',
