@@ -16,6 +16,41 @@
       </h2>
     </div>
   </div>
+<!-- PRIMER BANNER -->
+<div class="infobann" style="height:700px;">
+  <section class="bannerinfo" style="background-color: rgb(25, 62, 132) !important;">
+   <div class="continfo">
+     <center>
+    <header class="lq-ph__header"> 
+      <h2 class="headh2" style="color:#000000;">
+          ABRE TU CUENTA ONLINE Y APROVECHA NUESTROS BENEFICIOS 
+      </h2>
+    </header>
+  </center>
+    <div class="fondoinfo">
+      <dl class="partleft">
+        <dt class="dtleft">
+        <div class="lefttittle"style="color:#000000;"><span >CONSULTA DE SALDOS</span></div>
+        </dt>
+        <dd class="lefttext"><span style="color:#1a4088;">Haz tus operaciones GRATIS las 24 horas del día sin preocupaciones</span></dd>
+        <dt class="dtleft">
+        <div class="lefttittle"style="color:#000000;"><span >PAGO DE TARJETAS DE CREDITO</span></div>
+        </dt>
+        <dd class="lefttext"><span style="color:#1a4088;">desde cualquier banco ubicado en Perú</span></dd>
+      </dl>
+    </dl>
+    <dl class="partright" >
+      <dt class="dtright">
+      <div class="righttittle"style="color:#000000;"><span >PAGO DE SERVICIOS</span></div>
+      </dt>
+      <dd class="righttext"><span style="color:#1a4088;">Abre tu cuenta online y realiza tus operaciones sin ir al banco</span></dd>
+      <dt class="dtright">
+      <div class="righttittle" style="color:#000000;"><span >SOLICITA EL RETIRO SIN TARJETA</span></div>
+      </dt>
+      <dd class="righttext"><span style="color:#1a4088;">y obtén efectivo desde cualquier cajero Global Net</span></dd>
+    </dl>
+    </section>
+  </div>
 
   <!-- ACORDION DE SOCIO -->
   <div class="accordion container-xs container-md container-lg">
@@ -56,6 +91,11 @@
                 data-toggle="pill" href="#pills-profile1" role="tab" aria-controls="pills-profile1"
                 aria-selected="false"><strong>Requisitos</strong></a>
             </li>
+            <li class="nav-item" style="background-color: rgb(238, 247, 235);">
+              <a class="nav-link md btn-light" id="pills-home-tab"
+                data-toggle="pill" href="#pills-dudas1" role="tab" aria-controls="pills-dudas1"
+                aria-selected="false"><strong>//Tengo dudas//</strong></a>
+            </li>
           </ul>
           <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade" id="pills-home1" role="tabpanel" aria-labelledby="pills-home-tab">
@@ -70,6 +110,23 @@
 
               </ul>
             </div>
+            <div class="tab-pane fade" id="pills-dudas1" role="tabpanel" aria-labelledby="pills-home-tab">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="tel:(051)-602082"><i class="fas fa-check"></i> Puede llamarnos: (051)-602082</a></li>
+                
+                <li class="list-group-item"><a style="color: #1A6CA7;"
+                  class="md"><i class="fas fa-check"></i></a> Contacte un asesor:<a href="https://api.whatsapp.com/send?phone=51960359420&amp;text=%C2%A1Bienvenido%20a 
+                  Possible!" target="_blank">  960359420 <i class="fab fa-whatsapp"></i> </a></li>
+                <li class="list-group-item"><a style="color: #1A6CA7;" class="md"><i class="fas fa-check"></i></a> ASDASDASDASDASDASDASD</li>
+                  <li class="list-group-item"><a style="color: #1A6CA7;"
+                    class="md"><i class="fas fa-check"></i></a> ASDASDASDASDASDASDASD</li>
+                  <li class="list-group-item"><a style="color: #1A6CA7;"
+                    class="md"><i class="fas fa-check"></i></a> ASDASDASDASDASDASDASD</li>
+                  <li class="list-group-item"><a style="color: #1A6CA7;"
+                    class="md"><i class="fas fa-check"></i></a> ASDASDASDASDASDASDASD</li>    
+              </ul>
+            </div>
+
             <div class="tab-pane fade" id="pills-profile1" role="tabpanel" aria-labelledby="pills-profile-tab">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item" style="background-color: white!important;color: #1A6CA7;"><strong>Personas

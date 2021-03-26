@@ -15,7 +15,41 @@
       </h2>
     </div>
   </div>
-
+<!-- PRIMER BANNER -->
+<div class="infobann" style="height:700px;">
+  <section class="bannerinfo" style="background-color: rgb(25, 62, 132) !important;">
+   <div class="continfo">
+     <center>
+    <header class="lq-ph__header">
+      <h2 class="headh2" style="color:#ffffff;">
+          ABRE TU CUENTA ONLINE Y APROVECHA NUESTROS BENEFICIOS 
+      </h2>
+    </header>
+  </center>
+    <div class="fondoinfo">
+      <dl class="partleft">
+        <dt class="dtleft">
+        <div class="lefttittle"style="color:#000000;"><span >CONSULTA DE SALDOS</span></div>
+        </dt>
+        <dd class="lefttext"><span >Haz tus operaciones GRATIS las 24 horas del día sin preocupaciones</span></dd>
+        <dt class="dtleft">
+        <div class="lefttittle"style="color:#000000;"><span >PAGO DE TARJETAS DE CREDITO</span></div>
+        </dt>
+        <dd class="lefttext"><span >desde cualquier banco ubicado en Perú</span></dd>
+      </dl>
+    </dl>
+    <dl class="partright" >
+      <dt class="dtright">
+      <div class="righttittle"style="color:#000000;"><span >PAGO DE SERVICIOS</span></div>
+      </dt>
+      <dd class="righttext"><span >Abre tu cuenta online y realiza tus operaciones sin ir al banco</span></dd>
+      <dt class="dtright">
+      <div class="righttittle" style="color:#000000;"><span >SOLICITA EL RETIRO SIN TARJETA</span></div>
+      </dt>
+      <dd class="righttext"><span>y obtén efectivo desde cualquier cajero Global Net</span></dd>
+    </dl>
+    </section>
+  </div>
   <!-- ACORDION DE SOCIO -->
   <div class="accordion container-xs container-md container-lg">
     <div class="card border-light  container-md">

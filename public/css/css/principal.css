@@ -906,3 +906,97 @@ span {
         transform: translateX(-6px) rotate(-1.2deg);
     }
 }
+
+.bannerinfo{
+	margin-top: 250px;
+height: 600px;
+width: 100%;
+}
+@media (min-height: 40em){
+.bannerinfo {
+	height: 790px;
+	}}
+.continfo{
+	margin: 50px;
+}
+@media (min-height: 40em){
+.headh2 {
+	font-size: 1.625em;
+	margin: 18px;
+}}
+
+.lq .lq-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1272px;
+}
+.headh2{
+	text-align: center;
+	font-size: 3.0em;
+}
+.partleft{
+	float: left;
+	font-size: 1.1em;
+    width: 350px;
+    color: white;
+}
+.partright{
+	float: right;
+	font-size: 1.1em;
+    width: 350px;
+    color: white;
+}
+.lefttittle{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.lefttext{
+	margin-bottom: 80px;
+	text-align: center;
+}
+.righttittle{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.righttext{
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.lq-ph__header {
+height: 200px;
+width: 65%;
+}
+@media (min-height: 40em){
+    .partleft {
+        width: 100%;
+    }	}
+@media (min-height: 40em){
+        .partright {
+            width: 100%;
+        }	}
+
+@media (min-height: 40em){
+.lq-ph__header {
+    margin-bottom: 1.8125rem;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+	height: 100px;
+    width: 100%;
+	font-size: 0.5em;
+}	}
+
+@media (min-height: 40em){
+	.lefttext {
+		margin-bottom: 0px;
+	}	}
+
+@media (min-height: 40em){
+	.righttext {
+		margin-bottom: 0px;
+		}	}
